@@ -9,7 +9,8 @@ class Rect:
 
     def increment_y(self, x):
         self.x +=1
-
+    def lower_y(self, y):
+        self.y -= 1
 x = Rect(3,4)
 x.increment_x(3)
 x.__init__(8,7)
